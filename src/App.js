@@ -1,15 +1,10 @@
 import './App.css';
-// import Mission from './Homepage/MissionVision/missionvision';
-// import Intiatives from './Homepage/intiatives/intiative';
-import ContactUs from './ContactUs/ContactUs';
-import Cr from './crousol/crousol'
+import Home from './Components/Homepage/Home';
+
 function App() {
   return (
     <>
-     <ContactUs></ContactUs>
-     {/* <Cr/> */}
-      {/* <Mission />
-      <Intiatives /> */}
+      <Home />
     </>
   );
 }

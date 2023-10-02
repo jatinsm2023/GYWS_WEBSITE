@@ -20,50 +20,35 @@ function ContactUs() {
                             <div class="formBox">
                                 <div class="row50">
                                     <div class="inputBox">
-                                        <span>
-                                            First Name
-                                        </span>
-                                        <input type="text" placeholder="" required/>
+                                        <input type="text" placeholder="First Name" required />
                                     </div>
 
                                     <div class="inputBox">
-                                        <span>
-                                            Last Name
-                                        </span>
-                                        <input type="text" placeholder="" required/>
+                                        <input type="text" placeholder="Last Name" required />
                                     </div>
 
                                 </div>
 
                                 <div class="row50">
                                     <div class="inputBox">
-                                        <span>
-                                            Email address
-                                        </span>
-                                        <input type="text" placeholder="" required/>
+                                        <input type="text" placeholder="Email Address" required />
                                     </div>
 
                                     <div class="inputBox">
-                                        <span>
-                                            Mobile
-                                        </span>
-                                        <input type="text" placeholder="" required/>
+                                        <input type="text" placeholder="Mobile" required />
                                     </div>
 
                                 </div>
 
                                 <div class="row100">
                                     <div class="inputBox">
-                                        <span>
-                                            Message
-                                        </span>
-                                        <textarea placeholder="write your message here" required></textarea>
+                                        <textarea placeholder="Write Your Message Here" required></textarea>
                                     </div>
                                 </div>
 
                                 <div class="row100">
                                     <div class="inputBox">
-                                        <input type="submit" value="Send"/>
+                                        <input type="submit" value="Send" />
                                     </div>
                                 </div>
 
@@ -79,7 +64,7 @@ function ContactUs() {
                         <div class="infobox">
                             <div>
                                 <span><ion-icon name="location"></ion-icon></span>
-                                <p>IIT Kharagpur , West Bengal <br/>INDIA</p>
+                                <p>IIT Kharagpur , West Bengal <br />INDIA</p>
                             </div>
                             <div>
                                 <span><ion-icon name="mail"></ion-icon></span>
@@ -102,13 +87,13 @@ function ContactUs() {
 
                     {/* <!-- map detail  --> */}
                     <div class="contact map ">
-                        <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3691.0241240906203!2d87.30795617492898!3d22.3149273796761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1693781012625!5m2!1sen!2sin" 
-                        style={{border: "0"}} 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade"
-                        title="Google Map"
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3691.0241240906203!2d87.30795617492898!3d22.3149273796761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1693781012625!5m2!1sen!2sin"
+                            style={{ border: "0" }}
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Google Map"
                         ></iframe>
 
                     </div>
