@@ -1,7 +1,6 @@
-import React from 'react';
 import './missionvision.css';
-import missionlogo from './mission.png';
-import visionlogo from './vision.png';
+import missionlogo from './images/mission.png';
+import visionlogo from './images/vision.png';
 
 export default function missionvision() {
     return (
