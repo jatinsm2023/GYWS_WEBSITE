@@ -1,4 +1,7 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
+import {AiOutlineMenu} from 'react-icons/ai';
+import { IoClose } from 'react-icons/io5';
+import { Link } from 'react-router-dom'; // Import Link if using React Router
 import './Navbar.css';
 import LOGO from './Images/logo.png';
 
@@ -9,26 +12,46 @@ function Navbar() {
         setShowMenu(!showMenu);
     };
 
+    const menuIcon = showMenu ? (
+        <IoClose className="HiMenu" onClick={toggleMenu} />
+    ) : (
+        <AiOutlineMenu className="HiMenu" onClick={toggleMenu} />
+    );
+
     return (
-        <nav>
-            <div className="logo">
-                <img src={LOGO} alt="" />
-                Gopali Youth Welfare Society
-            </div>
-            <div
-                className={`menu-toggle ${showMenu ? 'open' : ''}`}
-                onClick={toggleMenu}
-            >
-                ☰
-            </div>
-            <ul className={`nav-links ${showMenu ? ' show' : ''}`}>
-                <li><a href="/">About</a></li>
-                <li><a href="/">Initiatives</a></li>
-                <li><a href="/">Media</a></li>
-                <li><a href="/">Members</a></li>
-                <li className='donatebtn'><a href='/'>Donate</a></li>
-            </ul>
-        </nav>
+        <>
+            <nav>
+                <div className="logo">
+                    <img src={LOGO} alt="GYWS_Logo" />
+                    <Link to="/">Gopali Youth Welfare Society</Link> {/* Use Link here */}
+                </div>
+                <div className={`menu-toggle ${showMenu ? 'open' : ''}`}>
+                    {menuIcon}
+                </div>
+
+                <ul className={`nav-links ${showMenu ? 'show' : ''}`}>
+                    <li>
+                        <Link to="/">About</Link>
+                    </li>
+                    <li>
+                        <Link to="/">Initiatives</Link>
+                    </li>
+                    <li>
+                        <Link to="/">Media</Link>
+                    </li>
+                    <li>
+                        <Link to="/">Members</Link>
+                    </li>
+                    <li className="donatebtn">
+                        <a href="/" target="_blank" rel="noopener noreferrer">
+                            Donate
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div className="nav_space"></div>
+        </>
     );
 }
 
