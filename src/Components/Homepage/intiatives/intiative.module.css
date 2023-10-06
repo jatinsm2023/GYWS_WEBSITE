@@ -3,10 +3,11 @@
     margin: 0px;
 }
 
+
 .heading h1 {
     /* border: solid red; */
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2vw;
 }
 
 .container {
@@ -14,8 +15,8 @@
     display: grid;
     grid-template-areas:
         'area0 area0'
-        'area1 area2'
-        'area3 area2';
+        'area2 area1'
+        'area2 area3';
     /* padding: 3rem; */
     /* width: fit-content; */
 }
@@ -42,7 +43,7 @@
 .name {
     /* border: solid red; */
     text-align: center;
-    font-size: 2rem;
+    font-size: 2vmax;
 }
 
 .mainbox {
@@ -50,14 +51,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 10x solid  green; */
-    border-radius: 3rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    /* border-right: 8px solid green;
-    border-bottom: 8px solid green; */
-    margin: 5rem;
-    padding: 2.4rem;
+    border-radius: 8vmax;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
 }
 
 .mainbox button {
@@ -73,7 +72,8 @@
 
 
 .mainbox img {
-    border-radius: 2rem;
+    width: 32vh;
+    border-radius: 2vmax;
 }
 
 .discr {
@@ -87,7 +87,7 @@
 #first {
     border-right: 10px solid #05A1C7;
     border-bottom: 10px solid #05A1C7;
- 
+
 }
 
 #middle {
@@ -102,20 +102,12 @@
     border-bottom: 10px solid #F16A36;
 }
 
-@media (max-width:1320px) {
-    .container {
-        width: fit-content;
-    }
 
-}
 
-@media (max-width:800px) {
+@media (max-width:980px) {
     .container {
-        grid-template-areas:
-            'area0'
-            'area1'
-            'area2'
-            'area3';
+        display: flex;
+        flex-direction: column;
     }
 }
 
