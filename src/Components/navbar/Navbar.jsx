@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {AiOutlineMenu} from 'react-icons/ai';
+import { AiOutlineMenu } from 'react-icons/ai';
 import { IoClose } from 'react-icons/io5';
 import { Link } from 'react-router-dom'; // Import Link if using React Router
 import './Navbar.css';
@@ -37,7 +37,7 @@ function Navbar() {
                         <Link to="/">Initiatives</Link>
                     </li>
                     <li>
-                        <Link to="/">Media</Link>
+                        <Link to="/media">Media</Link>
                     </li>
                     <li>
                         <Link to="/">Members</Link>
