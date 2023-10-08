@@ -9,6 +9,7 @@ nav {
     height: 110px;
     width: 100%;
     z-index: 999;
+    position: fixed;
 }
 
 .logo {
