@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { AiOutlineMenu } from 'react-icons/ai';
+// import { AiOutlineMenu } from 'react-icons/ai';
 import { IoClose } from 'react-icons/io5';
+import {IoMenu} from 'react-icons/io5';
 import { Link } from 'react-router-dom'; // Import Link if using React Router
 import './Navbar.css';
 import LOGO from './Images/logo.png';
@@ -15,7 +16,7 @@ function Navbar() {
     const menuIcon = showMenu ? (
         <IoClose className="HiMenu" onClick={toggleMenu} />
     ) : (
-        <AiOutlineMenu className="HiMenu" onClick={toggleMenu} />
+        <IoMenu className="HiMenu" onClick={toggleMenu} />
     );
 
     return (

@@ -1,6 +1,6 @@
 import './Newsletter.css'
 import Card from './Card'
-import data from './newletterData'
+import data from './newsletterData'
 
 export default function Newsletter() {
     
