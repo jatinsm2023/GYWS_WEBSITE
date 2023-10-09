@@ -1,7 +1,7 @@
 import React from 'react'
-import './page.css'
+import './members2324.css'
 import Card from '../Card/card'
-import data from '../memberdata'
+import data from './memberdata2324'
 
 export default function page() {
     return (
