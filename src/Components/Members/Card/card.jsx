@@ -13,8 +13,9 @@ function card(props) {
                     <h3>{props.name}</h3>
                     <p>{props.position}</p>
                     <div className="members_card_button">
-                        <a href={props.facebookLink} className=""><BiLogoFacebook/></a>
-                        <a href={props.linkedinLink} className=""><AiOutlineLinkedin/></a>
+                        <a href={props.facebookLink} className="" target='_blank' rel="noreferrer"><BiLogoFacebook/></a>
+                        &nbsp;&nbsp;
+                        <a href={props.linkedinLink} className="" target='_blank' rel="noreferrer"><AiOutlineLinkedin/></a>
                     </div>
 
                 </div>
