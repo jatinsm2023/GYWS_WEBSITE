@@ -7,9 +7,9 @@ function App() {
   return (
     <>
       {/* <Home /> */}
-    {/* <MemberNav/> */}
-    {/* <Member/> */}
-    <Mever/>
+      {/* <MemberNav/> */}
+      {/* <Member/> */}
+      <Mever/>
     </>
   );
 }

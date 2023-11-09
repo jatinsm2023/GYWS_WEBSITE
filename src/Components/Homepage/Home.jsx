@@ -6,6 +6,9 @@ import Navbar from '../navbar/Navbar';
 import Footer from '../Footer/footer.jsx'
 // import Contact from '../ContactUs/ContactUs'
 function Home() {
+    document.title = "GYWS - Home";
+
+
     return (
         <>
             <Navbar />

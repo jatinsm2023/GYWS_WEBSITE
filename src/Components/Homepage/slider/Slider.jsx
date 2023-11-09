@@ -16,18 +16,18 @@ function Slider() {
         >
           <div>
             <img src={header_bg_1} alt='JVM Students' className='carousel_image' />
-            {/* <p className="legend">JVM students</p> */}
+            <p className="legend">JVM students</p>
           </div>
           <div>
             <img src={JVM} alt='We with the students' className='carousel_image' />
-            {/* <p className="legend">We with the students</p> */}
+            <p className="legend">We with the students</p>
 
           </div>
         </Carousel>
 
-        <div className='carousel_heading'>
+        {/* <div className='carousel_heading'>
           IITian's empowering youth for BETTER TOMORROW
-        </div>
+        </div> */}
         {/* <div className="carousel_donate">
             <button className="btn">Yes, I want to Donate</button>
         </div> */}
