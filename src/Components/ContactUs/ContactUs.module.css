@@ -10,13 +10,13 @@
 
 }
 
-body {
+/* body {
 
-    background: linear-gradient(90deg, #feac6a 0%, #fd7e14 30%, #67e1f4 30%, #17a2b8 100%);
-
-}
+    
+} */
 
 .contactUs {
+    background: linear-gradient(90deg, #feac6a 0%, #fd7e14 30%, #67e1f4 30%, #17a2b8 100%);
     position: relative;
     width: 100%;
     padding: 40px 100px;
@@ -250,10 +250,7 @@ body {
 
 @media (max-width:991px) {
 
-    body {
-        background: #67e1f4;
-    }
-
+   
     .contactUs {
         padding: 20px;
 

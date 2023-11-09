@@ -6,10 +6,10 @@ import Mever from './Components/Members Page/Members.jsx'
 function App() {
   return (
     <>
-    {/* <Home /> */}
-  {/* <MemberNav/> */}
-  {/* <Member/> */}
-  <Mever/>
+      {/* <Home /> */}
+      {/* <MemberNav/> */}
+      {/* <Member/> */}
+      <Mever/>
     </>
   );
 }
